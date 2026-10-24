@@ -1,0 +1,106 @@
+.login {
+}
+.login-boxLogo {
+  margin: 21px 0px 16px 48px;
+}
+.login-boxLogo-text {
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000;
+  position: relative;
+}
+.login-boxLogo-text::before {
+  position: absolute;
+  content: "";
+  width: 39px;
+  height: 31px;
+  background-color: rgb(251, 124, 47);
+  z-index: -1;
+  border-radius: 8px;
+  top: -7px;
+  left: -22px;
+}
+.login-boxLogo-text::after {
+  position: absolute;
+  content: "";
+  width: 39px;
+  height: 31px;
+  background-color: rgb(254, 229, 213);
+  z-index: -2;
+  border-radius: 8px;
+  top: -12px;
+  left: -28px;
+}
+.login-main {
+  padding-top: 308px;
+  background: url(../../assets/backgroundLogo.svg) no-repeat center/cover;
+  border-bottom-left-radius: 120px;
+}
+.login-main-name {
+  font-weight: 900;
+  font-size: 102px;
+  color: #000;
+  margin-left: 230px;
+}
+.login-main-text {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #52555f;
+  padding-bottom: 79px;
+  margin-left: 302px;
+}
+.login-photo {
+  margin: 60px 0px 50px 230px;
+}
+.login-register {
+    width: 436px;
+    padding: 50px 0px;
+    position: absolute;
+    top: 280px;
+    left: 734px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-register-text {
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: #52555f;
+}
+.login-register-box {
+    width: 103px;
+    display: flex;
+    padding: 11px 0px 11px 19px;
+    background: #f6f7fb;
+    border-radius: 26px;
+    margin: 20px 0px 30px;
+    box-shadow: 1px 2px 3px 0 rgba(170, 178, 197, 0.2);
+}
+.login-register-box-text {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #000;
+  margin-left: 10px;
+}
+.login-register-btn {
+  border: none;
+  border-radius: 16px;
+  width: 125px;
+  height: 44px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background: #ff751d;
+  box-shadow: 1px 3px 5px 0 rgba(255, 107, 8, 0.35);
+}
